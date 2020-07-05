@@ -24,6 +24,9 @@
         "@typescript-eslint"
     ],
     "rules": {
+      "react/prop-types": "off",
+      "react/jsx-props-no-spreading": "off",
+      "no-unused-vars": "off",
       "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }],
       "consistent-return": "off",
       "camelcase":"off",
